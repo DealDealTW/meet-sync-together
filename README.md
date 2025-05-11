@@ -1,73 +1,51 @@
-# Welcome to your Lovable project
+# TimeSync - 活動規劃應用
 
-## Project info
+TimeSync是一個用Flutter開發的活動規劃應用，幫助用戶輕鬆創建、管理和協調活動。
 
-**URL**: https://lovable.dev/projects/4699bf48-f9be-4f98-a1a2-95a6f3a62e39
+## 主要功能
 
-## How can I edit this code?
+- **活動創建與管理**: 輕鬆創建和編輯活動詳情
+- **時間投票系統**: 讓參與者對可行的時間選項進行投票
+- **地點選擇**: 提供地點建議和投票功能
+- **參與者管理**: 邀請和跟踪參與者狀態
+- **聊天功能**: 內建群組聊天，方便討論活動細節
+- **日曆整合**: 將確認的活動添加到日曆
+- **分享功能**: 通過多種方式分享活動邀請
 
-There are several ways of editing your application.
+## 最新更新
 
-**Use Lovable**
+- 修復了活動詳情頁面的UI和功能問題
+- 改進了聊天界面設計
+- 優化了時間選項展示
+- 添加了參與者狀態追踪功能
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4699bf48-f9be-4f98-a1a2-95a6f3a62e39) and start prompting.
+## 技術架構
 
-Changes made via Lovable will be committed automatically to this repo.
+- **前端**: Flutter (跨平台UI框架)
+- **狀態管理**: Riverpod
+- **存儲**: 計劃集成Supabase
+- **通知**: Firebase Cloud Messaging (計劃中)
 
-**Use your preferred IDE**
+## 安裝與使用
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. 確保你已安裝Flutter環境
+2. 克隆此倉庫:
+   ```
+   git clone https://github.com/DealDealTW/meet-sync-together.git
+   ```
+3. 安裝依賴:
+   ```
+   flutter pub get
+   ```
+4. 運行應用:
+   ```
+   flutter run
+   ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 貢獻
 
-Follow these steps:
+歡迎提交Pull Request或Issue。在貢獻前，請先討論你希望進行的更改。
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 授權
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/4699bf48-f9be-4f98-a1a2-95a6f3a62e39) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+此項目採用MIT授權 - 詳見LICENSE文件
